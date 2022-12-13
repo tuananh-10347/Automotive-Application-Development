@@ -1,0 +1,37 @@
+<APPLICATIONS>
+ <APP ID="001">
+  <TITLE>Phone</TITLE>
+  <URL>qrc:/App/Phone/Phone.qml</URL>
+  <ICON_PATH>qrc:/Img/HomeScreen/btn_home_menu_phone</ICON_PATH>
+ </APP>
+ <APP ID="002">
+  <TITLE>Media</TITLE>
+  <URL>qrc:/App/Media/Media.qml</URL>
+  <ICON_PATH>qrc:/Img/HomeScreen/btn_home_menu_media</ICON_PATH>
+ </APP>
+ <APP ID="003">
+  <TITLE>Video</TITLE>
+  <URL>qrc:/App/Video/Video.qml</URL>
+  <ICON_PATH>qrc:/Img/HomeScreen/btn_home_menu_climate</ICON_PATH>
+ </APP>
+ <APP ID="004">
+  <TITLE>Settings</TITLE>
+  <URL>qrc:/App/Setting/Setting.qml</URL>
+  <ICON_PATH>qrc:/Img/HomeScreen/btn_home_menu_settings</ICON_PATH>
+ </APP>
+ <APP ID="005">
+  <TITLE>Instagram</TITLE>
+  <URL>qrc:/App/Instagram/Instagram.qml</URL>
+  <ICON_PATH>qrc:/Img/HomeScreen/btn_home_menu_instagram</ICON_PATH>
+ </APP>
+ <APP ID="006">
+  <TITLE>Map</TITLE>
+  <URL>qrc:/App/Map/Map.qml</URL>
+  <ICON_PATH>qrc:/Img/HomeScreen/btn_home_menu_map</ICON_PATH>
+ </APP>
+ <APP ID="007">
+  <TITLE>Radio</TITLE>
+  <URL>qrc:/App/Radio/Radio.qml</URL>
+  <ICON_PATH>qrc:/Img/HomeScreen/btn_home_menu_radio</ICON_PATH>
+ </APP>
+</APPLICATIONS>
