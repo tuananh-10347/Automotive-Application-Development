@@ -42,7 +42,7 @@ Item {
         id: marker
         anchorPoint.x: image.width/4
         anchorPoint.y: image.height
-        coordinate: QtPositioning.coordinate(21.03, 105.78)
+        coordinate: QtPositioning.coordinate(10.85, 106.78)
 
         sourceItem: Image {
             id: image
@@ -53,7 +53,7 @@ Item {
         id: map
         anchors.fill: parent
         plugin: mapPlugin
-        center: QtPositioning.coordinate(21.03, 105.78)
+        center: QtPositioning.coordinate(10.85, 106.78)
         zoomLevel: 14
         copyrightsVisible: false
         Component.onCompleted: {

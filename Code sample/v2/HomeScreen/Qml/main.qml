@@ -5,7 +5,6 @@ import QtQuick.Controls 2.4
 ApplicationWindow {
     id: window
     visible: true
-    visibility: "FullScreen"
     width: 1920
     height: 1200
     property bool screenCheck: true

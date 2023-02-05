@@ -34,7 +34,7 @@ Item {
             id: mapWidget
             onClicked: {
                 itemFocus = mapWidget
-                openApplication("qrc:/Qml/App/Map/Map.qml")
+                openApplication("qrc:/App/Map/Map.qml")
                 widgetFocusItem = mapWidget
             }
             onActiveFocusChanged:  {
@@ -53,7 +53,7 @@ Item {
                     break
                 case Qt.Key_Enter:
                 case Qt.Key_Return:
-                    openApplication("qrc:/Qml/App/Map/Map.qml")
+                    openApplication("qrc:/App/Map/Map.qml")
                     break
                 case Qt.Key_Down:
                     console.log("key down from mapWidget")
@@ -70,7 +70,7 @@ Item {
             id: climateWidget
             onClicked: {
                 itemFocus = climateWidget
-                openApplication("qrc:/Qml/App/Climate/Climate.qml")
+                openApplication("qrc:/App/Climate/Climate.qml")
                 widgetFocusItem = climateWidget
             }
             onActiveFocusChanged:  {
@@ -91,7 +91,7 @@ Item {
                     break
                 case Qt.Key_Enter:
                 case Qt.Key_Return:
-                    openApplication("qrc:/Qml/App/Climate/Climate.qml")
+                    openApplication("qrc:/App/Climate/Climate.qml")
                     break
                 case Qt.Key_Down:
                     console.log("key down from mapWidget")
@@ -108,7 +108,7 @@ Item {
             id: mediaWidget
             onClicked: {
                 itemFocus = mediaWidget
-                openApplication("qrc:/Qml/App/Media/Media.qml")
+                openApplication("qrc:/App/Media/Media.qml")
                 widgetFocusItem = mediaWidget
             }
             onActiveFocusChanged:  {
@@ -124,7 +124,7 @@ Item {
                     break
                 case Qt.Key_Enter:
                 case Qt.Key_Return:
-                    openApplication("qrc:/Qml/App/Media/Media.qml")
+                    openApplication("qrc:/App/Media/Media.qml")
                     break
                 case Qt.Key_Down:
                     console.log("key down from mapWidget")

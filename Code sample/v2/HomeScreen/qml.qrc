@@ -178,6 +178,7 @@
         <file>App/Media/MediaInfoControl.qml</file>
         <file>App/Media/PlaylistView.qml</file>
         <file>App/Media/SwitchButton.qml</file>
+        <file>Qml/fileConst.js</file>
         <file>App/Media/fileConst.js</file>
         <file>App/Radio/Radio.qml</file>
         <file>App/Phone/Phone.qml</file>

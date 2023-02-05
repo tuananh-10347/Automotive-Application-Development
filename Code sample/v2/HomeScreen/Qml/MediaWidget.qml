@@ -109,6 +109,9 @@ MouseArea {
         width: 0
         source: "qrc:/Img/HomeScreen/widget_media_pg_s.png"
     }
+//Animation{
+
+//}
     states: [
         State {
             name: "Focus"

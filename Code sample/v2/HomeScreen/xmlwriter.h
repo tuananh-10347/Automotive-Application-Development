@@ -4,6 +4,7 @@
 #include <QFile>
 #include <QString>
 
+
 class XmlWriter: public QObject
 {
     Q_OBJECT
